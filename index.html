@@ -631,4 +631,49 @@
         document.getElementById('manufacturerFilter').addEventListener('change', filterProducts);
     </script>
 </body>
+    <!-- Adicione este código onde quiser que o botão apareça -->
+
+<button onclick="downloadTemplate()" class="btn-template">
+  📥 Baixar Template Excel
+</button>
+
+<script>
+function downloadTemplate() {
+  // Link para o arquivo
+  const url = 'TEMPLATE-COMPARADOR-QUIMICOS.xlsx';
+  
+  // Criar elemento link
+  const link = document.createElement('a');
+  link.href = url;
+  link.download = 'TEMPLATE-COMPARADOR-QUIMICOS.xlsx';
+  
+  // Simular clique
+  document.body.appendChild(link);
+  link.click();
+  document.body.removeChild(link);
+}
+</script>
+
+<style>
+.btn-template {
+  background-color: #4CAF50;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  margin: 10px 0;
+  transition: background-color 0.3s;
+}
+
+.btn-template:hover {
+  background-color: #45a049;
+}
+
+.btn-template:active {
+  transform: scale(0.98);
+}
+</style>
+
 </html>
