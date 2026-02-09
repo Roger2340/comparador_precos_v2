@@ -4,7 +4,7 @@ Aplicativo web para comparação de preços de produtos químicos agrícolas ent
 
 ## 🚀 Acesso Online
 
-Acesse o aplicativo em: **https://SEU-USUARIO.github.io/comparador-precos-quimicos/**
+Acesse o aplicativo em: **https://Roger2340.github.io/comparador-precos-quimicos/**
 
 (Substitua SEU-USUARIO pelo seu nome de usuário do GitHub)
 
